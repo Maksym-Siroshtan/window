@@ -96,7 +96,7 @@ const modals = (state) => {
     false
   );
 
-  //showModalByTime(".popup", 60000);
+  showModalByTime(".popup", 60000);
 };
 
 export default modals;

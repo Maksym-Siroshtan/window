@@ -1,8 +1,10 @@
 import checkNumInputs from "./checkNumInputs";
+import calcScroll from "./calcScroll";
 
 const form = (state) => {
   const forms = document.querySelectorAll("form"),
-    inputs = document.querySelectorAll("input");
+    inputs = document.querySelectorAll("input"),
+    scroll = calcScroll();
 
   const messages = {
     loading: "Загрузка...",
@@ -71,6 +73,7 @@ const form = (state) => {
             ) {
               formParents.style.display = "none";
               document.body.style.overflow = "";
+              document.body.style.marginRight = `0px`;
             }
           }, 3000);
         });
