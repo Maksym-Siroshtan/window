@@ -14,7 +14,7 @@ const images = () => {
     display:none;
   `;
 
-  bigImg.classList.add('works_phone');
+  bigImg.classList.add("works_mobile_img");
   imgPopup.appendChild(bigImg);
   workSection.appendChild(imgPopup);
 
