@@ -719,7 +719,7 @@ textarea:focus {
   color: black;
   border-radius: 10px;
   text-align: center;
-  width: 360px;
+  max-width: 360px;
   height: 150px;
 }
 
@@ -1122,6 +1122,9 @@ textarea:focus {
     width: 300px;
     height: 508px;
   }
+  .numbers1 {
+    margin-right: 5px;
+  }
 }
 
 
@@ -1295,8 +1298,8 @@ textarea:focus {
     margin-top: 2rem;
   }
 
-  .decoration_content_material h3 {
-    min-height: auto;
+  .timer1 {
+    margin: 0 auto;
   }
 
   .decoration_form {
@@ -1749,7 +1752,7 @@ textarea:focus {
   .popup_calc_close {
     position: absolute;
     top: -1rem;
-    right: 1rem;
+    right: 2rem;
     font-size: 4rem;
     color: #000000;
     border: none;
